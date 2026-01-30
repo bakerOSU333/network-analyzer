@@ -9,7 +9,7 @@
 
 Please notice this program **ONLY** runs on macOS.
 
-## How to Use
+## Quick Start
 
 1. Make the script executable:
 
@@ -94,7 +94,7 @@ All HTML charts are stored in the `chart/html` folder for future access.
 
 This project was created as a way to get familiar with the Go programming language, combined with an interest in networking.
 
-## Terminal commands being useds
+## Usage
 
 - **Latency Data Collection**: Uses the built-in macOS `ping` command (`ping google.com -c 10`) to gather latency data.
 - **Bandwidth Usage**: Uses `nettop -l 1 -P -x` to monitor bandwidth usage by each process.
@@ -184,7 +184,7 @@ This project is organized into several folders, each responsible for specific fu
 - **Latency Measurement**: The `ping` command only measures the total round-trip latency, so it cannot distinguish whether upload or download is slower.
 - **Process Name Length**: The `nettop` command truncates long process names, but it's usually clear enough to identify the associated application.
 
-## External library being used:
+## Contributing
 - github.com/showwin/speedtest-go
 - github.com/go-echarts/go-echarts/v2
 - github.com/nexidian/gocliselect
