@@ -90,7 +90,7 @@ All HTML charts are stored in the `chart/html` folder for future access.
 - **Network Bandwidth Data**: Stored in `network/network.txt`.
 - **Network Latency Data**: Stored in `ping/ping.txt`.
 
-## Motives
+## Motivation
 
 This project was created as a way to get familiar with the Go programming language, combined with an interest in networking.
 
